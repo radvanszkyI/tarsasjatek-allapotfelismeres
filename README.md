@@ -1,1 +1,1 @@
-# tarsasjatek-allapotfelismeres
+# tarsasjatek-allapotfelismeres - Amőba
