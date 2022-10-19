@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image  = cv2.imread("kepek/n2.jpg")
+image  = cv2.imread("kepek/n7.jpg")
 
 #átméretezés: hasonló felbontás érdekében
 fxy = 1700 / image.shape[0]
