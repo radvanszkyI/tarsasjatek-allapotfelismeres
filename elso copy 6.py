@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image  = cv2.imread("n2.jpg")
+image  = cv2.imread("kepek/n2.jpg")
 
 #átméretezés: hasonló felbontás érdekében
 fxy = 1700 / image.shape[0]
@@ -13,7 +13,7 @@ I = cv2.GaussianBlur(I, (5,5), 0)
 I = cv2.morphologyEx(I, cv2.MORPH_CLOSE, np.ones((3,3)))
 I = cv2.adaptiveThreshold(I, 255, 1, 1, 11, 2)
 
-#so-bors eltünteése
+#szemcsék eltünteése
 I=cv2.medianBlur(I,3)
 cv2.imshow("szurt", I)
 
