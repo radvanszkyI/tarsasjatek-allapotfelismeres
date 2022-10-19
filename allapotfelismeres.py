@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image  = cv2.imread("kepek/n7.jpg")
+image  = cv2.imread("kepek/n1.jpg")
 
 #átméretezés: hasonló felbontás érdekében
 fxy = 1700 / image.shape[0]
@@ -32,6 +32,23 @@ cv2.imshow("vegso", image)
 
 #TODO javítás ha más távolságról van a kép-> sok kicsi kontur terület ->csokkenteni a felbontást
 
+
+'''
+estleg HoughLines
+sarok detektálás
+felulnezeti traszformació 4 pont alapján
+bird eye (felhaszn által 4 pont)
+tic tac toe dataset
+
+kontur terulete
+nagy kicsi nincs
+
+next goals:
+============
+egyes cellak kinyerése
+elkezdeni a tartalmuk meghatározását
+
+'''
 
 
 
