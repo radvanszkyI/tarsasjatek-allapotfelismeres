@@ -48,6 +48,7 @@ next goals:
 egyes cellak kinyerése
 elkezdeni a tartalmuk meghatározását
 
+
 '''
 
 
