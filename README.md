@@ -1,1 +1,1 @@
-# tarsasjatek-allapotfelismeres
+# Amőba társasjáték állapot-felismerés
